@@ -39,6 +39,8 @@ Generic PVA profile. The data in this file may not be correct for your specific 
         <setting key="standby temperature">175</setting>
         <cura:setting key="material_crystallinity">true</cura:setting>
         <setting key="build volume temperature">35</setting>
+		<setting key="pressure release dwell time">25</setting>
+		<setting key="dwell time before break preparation move">0</setting> 
 
         <!-- For material flow sensor -->
         <setting key="relative extrusion">1.0</setting>
