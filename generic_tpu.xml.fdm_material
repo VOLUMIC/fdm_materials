@@ -20,6 +20,7 @@ Generic TPU 95A profile. The data in this file may not be correct for your speci
         <diameter>2.85</diameter>
     </properties>
     <settings>
+        <!-- Deprime settings -->
         <setting key="anti ooze retract position">0</setting>
         <setting key="anti ooze retract speed">25</setting>
         <setting key="break preparation position">0</setting>
@@ -28,12 +29,14 @@ Generic TPU 95A profile. The data in this file may not be correct for your speci
         <setting key="break position">-100</setting>
         <setting key="break speed">25</setting>
         <setting key="break temperature">195</setting>
+        <setting key="pressure release dwell time">25</setting>
+        <setting key="dwell time before break preparation move">0</setting> 
+
+        <!-- material station (un)loading settings -->
         <setting key="maximum park duration">7200</setting>
         <setting key="no load move factor">1.03</setting>
-        <setting key="flush purge speed">0.5</setting>
-        <setting key="end of filament purge speed">0.5</setting>
-        <setting key="flush purge length">60</setting>
-        <setting key="end of filament purge length">20</setting>
+
+        <!-- print settings -->
         <setting key="print temperature">228</setting>
         <setting key="heated bed temperature">0</setting>
         <setting key="standby temperature">175</setting>
@@ -41,8 +44,6 @@ Generic TPU 95A profile. The data in this file may not be correct for your speci
         <setting key="surface energy">100</setting>
         <cura:setting key="material_crystallinity">true</cura:setting>
         <setting key="build volume temperature">27</setting>
-		<setting key="pressure release dwell time">25</setting>
-		<setting key="dwell time before break preparation move">0</setting> 
 
         <!-- For material flow sensor -->
         <setting key="relative extrusion">1.0</setting>
