@@ -31,6 +31,8 @@ Generic PVA profile. The data in this file may not be correct for your specific 
         <setting key="break temperature">170</setting>
         <setting key="pressure release dwell time">25</setting>
         <setting key="dwell time before break preparation move">0</setting> 		
+        <setting key="end of print purge volume">0</setting>
+        <setting key="end of filament purge volume">0</setting>
 
         <!-- material station (un)loading settings -->
         <setting key="maximum park duration">216000</setting>
